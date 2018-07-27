@@ -5,7 +5,7 @@ module.exports.run = async(client, msg, pars) => {
     if (!pars[1]){msg.reply("Please provide an mention for example @user#1234");return}
       var exid = pars[1].split('@')
       var exid1 = exid[1].split('>')
-      var taruser = client.users.get(exid1[0])
+      var taruser = msg.guild.members.get(exid1[0])
       var tarid = taruser.id
 
       //console.log(taruser)
