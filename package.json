@@ -1,0 +1,14 @@
+{
+  "name": "aerobot",
+  "version": "1.0.0",
+  "description": "This is a Discord bot made by Daniel made for Aero Servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Svensson",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
